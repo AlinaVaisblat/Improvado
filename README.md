@@ -19,3 +19,15 @@ https://console.cloud.google.com/bigquery?ws=!1m7!1m6!12m5!1m3!1salina-vaisblat-
 
   2. "Improvado_Tableau_Ready_Query" - additional SQL script that creates a table, ready to be used in Tableau/other reports aimed at channel comparison (some calculated metrics, no extra columns). Data is saved to BigQuery table "tableau_ready_data". In real life I would use this table in Tableau (via Big Query connector), but I had to build dashboard with the .csv copy of this table due to Tableau Public limitations.
 https://console.cloud.google.com/bigquery?ws=!1m7!1m6!12m5!1m3!1salina-vaisblat-improvado!2sus-central1!3scf873711-064c-434a-91b3-e4072f8153e1!2e1
+
+**Notes:**
+
+Below I'll  provide some comments to better explain my work and insights found during the analysis.
+
+_Assumptions:_
+
+  1.Target Audience -	Management (need to see the whole picture, without excessive details)
+  
+  2. "Conversion"	means the same accross all 3 csv files provided
+
+  3. "Spend/Cost" currency is the same across all 3 csv files provided
